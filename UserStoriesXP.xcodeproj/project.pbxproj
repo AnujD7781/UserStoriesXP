@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D41D813D1A1EC9EC007F366F /* UserStoriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D813C1A1EC9EC007F366F /* UserStoriesModel.m */; };
+		D41D813E1A1EC9EC007F366F /* UserStoriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D813C1A1EC9EC007F366F /* UserStoriesModel.m */; };
+		D41D81411A1ECA05007F366F /* ProjectProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D81401A1ECA05007F366F /* ProjectProfileModel.m */; };
+		D41D81421A1ECA05007F366F /* ProjectProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D81401A1ECA05007F366F /* ProjectProfileModel.m */; };
+		D41D81451A1ECB95007F366F /* DBSingletonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D81441A1ECB95007F366F /* DBSingletonFactory.m */; };
+		D41D81461A1ECB95007F366F /* DBSingletonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D41D81441A1ECB95007F366F /* DBSingletonFactory.m */; };
+		D41D81661A1ED6D9007F366F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D41D81641A1ED6D9007F366F /* libsqlite3.0.dylib */; };
+		D41D81671A1ED6D9007F366F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D41D81651A1ED6D9007F366F /* libsqlite3.dylib */; };
+		D41D81681A1ED6F2007F366F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D41D81641A1ED6D9007F366F /* libsqlite3.0.dylib */; };
+		D41D81691A1ED6F2007F366F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D41D81651A1ED6D9007F366F /* libsqlite3.dylib */; };
+		D41D816B1A1ED724007F366F /* UserStories.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = D41D816A1A1ED724007F366F /* UserStories.sqlite3 */; };
+		D41D816C1A1ED724007F366F /* UserStories.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = D41D816A1A1ED724007F366F /* UserStories.sqlite3 */; };
+		D4505F881A23BBFA00A0C902 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4505F871A23BBFA00A0C902 /* MessageUI.framework */; };
+		D49745DF1A1B419F000B6890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D49745DE1A1B419F000B6890 /* main.m */; };
+		D49745E21A1B419F000B6890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D49745E11A1B419F000B6890 /* AppDelegate.m */; };
+		D49745E51A1B419F000B6890 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49745E41A1B419F000B6890 /* MasterViewController.m */; };
+		D49745E81A1B419F000B6890 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49745E71A1B419F000B6890 /* DetailViewController.m */; };
+		D49745EB1A1B419F000B6890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49745E91A1B419F000B6890 /* Main.storyboard */; };
+		D49745ED1A1B419F000B6890 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49745EC1A1B419F000B6890 /* Images.xcassets */; };
+		D49745F01A1B419F000B6890 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D49745EE1A1B419F000B6890 /* LaunchScreen.xib */; };
+		D49745FC1A1B419F000B6890 /* UserStoriesXPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D49745FB1A1B419F000B6890 /* UserStoriesXPTests.m */; };
+		D49746071A1B4531000B6890 /* ProjectProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49746061A1B4531000B6890 /* ProjectProfileViewController.m */; };
+		D497460A1A1C0BD8000B6890 /* UserStoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49746091A1C0BD8000B6890 /* UserStoriesViewController.m */; };
+		D497460D1A1C5FD4000B6890 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D497460C1A1C5FD4000B6890 /* UIPlaceHolderTextView.m */; };
+		D4AE45161A1F20650059AAF3 /* background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4AE45151A1F20650059AAF3 /* background.pdf */; };
+		D4AE451A1A1F225C0059AAF3 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AE45191A1F225C0059AAF3 /* Background.png */; };
+		D4EB3DD01A26B561004834A8 /* FileIOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EB3DCF1A26B561004834A8 /* FileIOHelper.m */; };
+		D4EB3DD11A26B561004834A8 /* FileIOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EB3DCF1A26B561004834A8 /* FileIOHelper.m */; };
+		D4EB3DD41A26B57F004834A8 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EB3DD31A26B57F004834A8 /* JSONHelper.m */; };
+		D4EB3DD51A26B57F004834A8 /* JSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EB3DD31A26B57F004834A8 /* JSONHelper.m */; };
+		D4EB3E0F1A2D2695004834A8 /* Base64Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EB3E0E1A2D2695004834A8 /* Base64Helper.m */; };
+		D4EB3E101A2D2695004834A8 /* Base64Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EB3E0E1A2D2695004834A8 /* Base64Helper.m */; };
+		D4EB3EB01A2D310C004834A8 /* libFlurry_5.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB3E141A2D310C004834A8 /* libFlurry_5.4.0.a */; };
+		D4EB3EB11A2D310C004834A8 /* libFlurry_5.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB3E141A2D310C004834A8 /* libFlurry_5.4.0.a */; };
+		D4EB3FC01A2D310D004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3E9E1A2D310C004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf */; };
+		D4EB3FC11A2D310D004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3E9E1A2D310C004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf */; };
+		D4EB3FC21A2D310D004834A8 /* libFlurryAds_5.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB3EA21A2D310C004834A8 /* libFlurryAds_5.4.0.a */; };
+		D4EB3FC31A2D310D004834A8 /* libFlurryAds_5.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB3EA21A2D310C004834A8 /* libFlurryAds_5.4.0.a */; };
+		D4EB3FC41A2D310D004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA31A2D310C004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf */; };
+		D4EB3FC51A2D310D004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA31A2D310C004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf */; };
+		D4EB3FC61A2D310D004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA41A2D310C004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf */; };
+		D4EB3FC71A2D310D004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA41A2D310C004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf */; };
+		D4EB3FC81A2D310D004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA51A2D310C004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf */; };
+		D4EB3FC91A2D310D004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA51A2D310C004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf */; };
+		D4EB3FCA1A2D310D004834A8 /* Avro-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA71A2D310C004834A8 /* Avro-LICENSE.txt */; };
+		D4EB3FCB1A2D310D004834A8 /* Avro-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA71A2D310C004834A8 /* Avro-LICENSE.txt */; };
+		D4EB3FCC1A2D310D004834A8 /* Flurry Analytics Terms of Service.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA81A2D310C004834A8 /* Flurry Analytics Terms of Service.pdf */; };
+		D4EB3FCD1A2D310D004834A8 /* Flurry Analytics Terms of Service.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA81A2D310C004834A8 /* Flurry Analytics Terms of Service.pdf */; };
+		D4EB3FCE1A2D310D004834A8 /* Flurry for Advertisers TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA91A2D310C004834A8 /* Flurry for Advertisers TOS.pdf */; };
+		D4EB3FCF1A2D310D004834A8 /* Flurry for Advertisers TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EA91A2D310C004834A8 /* Flurry for Advertisers TOS.pdf */; };
+		D4EB3FD01A2D310D004834A8 /* Flurry for Publishers TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAA1A2D310C004834A8 /* Flurry for Publishers TOS.pdf */; };
+		D4EB3FD11A2D310D004834A8 /* Flurry for Publishers TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAA1A2D310C004834A8 /* Flurry for Publishers TOS.pdf */; };
+		D4EB3FD21A2D310D004834A8 /* Flurry RTB Marketplace TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAB1A2D310C004834A8 /* Flurry RTB Marketplace TOS.pdf */; };
+		D4EB3FD31A2D310D004834A8 /* Flurry RTB Marketplace TOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAB1A2D310C004834A8 /* Flurry RTB Marketplace TOS.pdf */; };
+		D4EB3FD41A2D310D004834A8 /* Flurry-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAC1A2D310C004834A8 /* Flurry-LICENSE.txt */; };
+		D4EB3FD51A2D310D004834A8 /* Flurry-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAC1A2D310C004834A8 /* Flurry-LICENSE.txt */; };
+		D4EB3FD61A2D310D004834A8 /* Hogan.js-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAD1A2D310C004834A8 /* Hogan.js-LICENSE.txt */; };
+		D4EB3FD71A2D310D004834A8 /* Hogan.js-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAD1A2D310C004834A8 /* Hogan.js-LICENSE.txt */; };
+		D4EB3FD81A2D310D004834A8 /* Jansson-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAE1A2D310C004834A8 /* Jansson-LICENSE.txt */; };
+		D4EB3FD91A2D310D004834A8 /* Jansson-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAE1A2D310C004834A8 /* Jansson-LICENSE.txt */; };
+		D4EB3FDA1A2D310D004834A8 /* PLCrashReporter-LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAF1A2D310C004834A8 /* PLCrashReporter-LICENSE.rtf */; };
+		D4EB3FDB1A2D310D004834A8 /* PLCrashReporter-LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3EAF1A2D310C004834A8 /* PLCrashReporter-LICENSE.rtf */; };
+		D4EB3FDD1A2D313A004834A8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB3FDC1A2D313A004834A8 /* CFNetwork.framework */; };
+		D4EB3FDF1A2D37D8004834A8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB3FDE1A2D37D8004834A8 /* Security.framework */; };
+		D4EB3FE11A2D37F1004834A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EB3FE01A2D37F1004834A8 /* SystemConfiguration.framework */; };
+		D4EB3FE31A2EBF55004834A8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3FE21A2EBF55004834A8 /* icon.png */; };
+		D4EB3FE41A2EBF55004834A8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EB3FE21A2EBF55004834A8 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D49745F61A1B419F000B6890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49745D11A1B419F000B6890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49745D81A1B419F000B6890;
+			remoteInfo = UserStoriesXP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D41D813B1A1EC9EC007F366F /* UserStoriesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserStoriesModel.h; sourceTree = "<group>"; };
+		D41D813C1A1EC9EC007F366F /* UserStoriesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserStoriesModel.m; sourceTree = "<group>"; };
+		D41D813F1A1ECA05007F366F /* ProjectProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectProfileModel.h; sourceTree = "<group>"; };
+		D41D81401A1ECA05007F366F /* ProjectProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectProfileModel.m; sourceTree = "<group>"; };
+		D41D81431A1ECB95007F366F /* DBSingletonFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSingletonFactory.h; sourceTree = "<group>"; };
+		D41D81441A1ECB95007F366F /* DBSingletonFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSingletonFactory.m; sourceTree = "<group>"; };
+		D41D81641A1ED6D9007F366F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D41D81651A1ED6D9007F366F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D41D816A1A1ED724007F366F /* UserStories.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = UserStories.sqlite3; sourceTree = "<group>"; };
+		D4505F871A23BBFA00A0C902 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D49745D91A1B419F000B6890 /* UserStoriesXP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserStoriesXP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49745DD1A1B419F000B6890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49745DE1A1B419F000B6890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D49745E01A1B419F000B6890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D49745E11A1B419F000B6890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D49745E31A1B419F000B6890 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D49745E41A1B419F000B6890 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D49745E61A1B419F000B6890 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D49745E71A1B419F000B6890 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D49745EA1A1B419F000B6890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D49745EC1A1B419F000B6890 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D49745EF1A1B419F000B6890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D49745F51A1B419F000B6890 /* UserStoriesXPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserStoriesXPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49745FA1A1B419F000B6890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49745FB1A1B419F000B6890 /* UserStoriesXPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserStoriesXPTests.m; sourceTree = "<group>"; };
+		D49746051A1B4531000B6890 /* ProjectProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectProfileViewController.h; sourceTree = "<group>"; };
+		D49746061A1B4531000B6890 /* ProjectProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectProfileViewController.m; sourceTree = "<group>"; };
+		D49746081A1C0BD8000B6890 /* UserStoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserStoriesViewController.h; sourceTree = "<group>"; };
+		D49746091A1C0BD8000B6890 /* UserStoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserStoriesViewController.m; sourceTree = "<group>"; };
+		D497460B1A1C5FD4000B6890 /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
+		D497460C1A1C5FD4000B6890 /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
+		D4AE45151A1F20650059AAF3 /* background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = background.pdf; sourceTree = "<group>"; };
+		D4AE45191A1F225C0059AAF3 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		D4EB3DCE1A26B561004834A8 /* FileIOHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIOHelper.h; sourceTree = "<group>"; };
+		D4EB3DCF1A26B561004834A8 /* FileIOHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileIOHelper.m; sourceTree = "<group>"; };
+		D4EB3DD21A26B57F004834A8 /* JSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHelper.h; sourceTree = "<group>"; };
+		D4EB3DD31A26B57F004834A8 /* JSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHelper.m; sourceTree = "<group>"; };
+		D4EB3E0D1A2D2695004834A8 /* Base64Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Helper.h; sourceTree = "<group>"; };
+		D4EB3E0E1A2D2695004834A8 /* Base64Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Helper.m; sourceTree = "<group>"; };
+		D4EB3E131A2D310C004834A8 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		D4EB3E141A2D310C004834A8 /* libFlurry_5.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_5.4.0.a; sourceTree = "<group>"; };
+		D4EB3E9E1A2D310C004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry iOS-4.x-Upgrade-README .pdf"; sourceTree = "<group>"; };
+		D4EB3EA01A2D310C004834A8 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		D4EB3EA11A2D310C004834A8 /* FlurryAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		D4EB3EA21A2D310C004834A8 /* libFlurryAds_5.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_5.4.0.a; sourceTree = "<group>"; };
+		D4EB3EA31A2D310C004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FlurryiOSAdvertisingREADMEv5.4.0.pdf; sourceTree = "<group>"; };
+		D4EB3EA41A2D310C004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FlurryiOSAnalyticsREADMEv5.4.0.pdf; sourceTree = "<group>"; };
+		D4EB3EA51A2D310C004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FlurryiOSReleaseNotesv5.4.0.pdf; sourceTree = "<group>"; };
+		D4EB3EA71A2D310C004834A8 /* Avro-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Avro-LICENSE.txt"; sourceTree = "<group>"; };
+		D4EB3EA81A2D310C004834A8 /* Flurry Analytics Terms of Service.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry Analytics Terms of Service.pdf"; sourceTree = "<group>"; };
+		D4EB3EA91A2D310C004834A8 /* Flurry for Advertisers TOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry for Advertisers TOS.pdf"; sourceTree = "<group>"; };
+		D4EB3EAA1A2D310C004834A8 /* Flurry for Publishers TOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry for Publishers TOS.pdf"; sourceTree = "<group>"; };
+		D4EB3EAB1A2D310C004834A8 /* Flurry RTB Marketplace TOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Flurry RTB Marketplace TOS.pdf"; sourceTree = "<group>"; };
+		D4EB3EAC1A2D310C004834A8 /* Flurry-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Flurry-LICENSE.txt"; sourceTree = "<group>"; };
+		D4EB3EAD1A2D310C004834A8 /* Hogan.js-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hogan.js-LICENSE.txt"; sourceTree = "<group>"; };
+		D4EB3EAE1A2D310C004834A8 /* Jansson-LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Jansson-LICENSE.txt"; sourceTree = "<group>"; };
+		D4EB3EAF1A2D310C004834A8 /* PLCrashReporter-LICENSE.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "PLCrashReporter-LICENSE.rtf"; sourceTree = "<group>"; };
+		D4EB3FDC1A2D313A004834A8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D4EB3FDE1A2D37D8004834A8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D4EB3FE01A2D37F1004834A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D4EB3FE21A2EBF55004834A8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49745D61A1B419F000B6890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EB3FE11A2D37F1004834A8 /* SystemConfiguration.framework in Frameworks */,
+				D4EB3FDF1A2D37D8004834A8 /* Security.framework in Frameworks */,
+				D4EB3FDD1A2D313A004834A8 /* CFNetwork.framework in Frameworks */,
+				D4505F881A23BBFA00A0C902 /* MessageUI.framework in Frameworks */,
+				D4EB3FC21A2D310D004834A8 /* libFlurryAds_5.4.0.a in Frameworks */,
+				D41D81681A1ED6F2007F366F /* libsqlite3.0.dylib in Frameworks */,
+				D41D81691A1ED6F2007F366F /* libsqlite3.dylib in Frameworks */,
+				D4EB3EB01A2D310C004834A8 /* libFlurry_5.4.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49745F21A1B419F000B6890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41D81661A1ED6D9007F366F /* libsqlite3.0.dylib in Frameworks */,
+				D41D81671A1ED6D9007F366F /* libsqlite3.dylib in Frameworks */,
+				D4EB3FC31A2D310D004834A8 /* libFlurryAds_5.4.0.a in Frameworks */,
+				D4EB3EB11A2D310C004834A8 /* libFlurry_5.4.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D41D813A1A1EC9BF007F366F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D41D813B1A1EC9EC007F366F /* UserStoriesModel.h */,
+				D41D813C1A1EC9EC007F366F /* UserStoriesModel.m */,
+				D41D813F1A1ECA05007F366F /* ProjectProfileModel.h */,
+				D41D81401A1ECA05007F366F /* ProjectProfileModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D4505E921A23102B00A0C902 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB3FE01A2D37F1004834A8 /* SystemConfiguration.framework */,
+				D4EB3FDE1A2D37D8004834A8 /* Security.framework */,
+				D4EB3FDC1A2D313A004834A8 /* CFNetwork.framework */,
+				D4505F871A23BBFA00A0C902 /* MessageUI.framework */,
+				D4EB3FE21A2EBF55004834A8 /* icon.png */,
+				D4AE45191A1F225C0059AAF3 /* Background.png */,
+				D4AE45151A1F20650059AAF3 /* background.pdf */,
+				D41D816A1A1ED724007F366F /* UserStories.sqlite3 */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		D4505E931A23103600A0C902 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D41D81431A1ECB95007F366F /* DBSingletonFactory.h */,
+				D41D81441A1ECB95007F366F /* DBSingletonFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		D4505E941A23106100A0C902 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D49746081A1C0BD8000B6890 /* UserStoriesViewController.h */,
+				D49746091A1C0BD8000B6890 /* UserStoriesViewController.m */,
+				D49745E31A1B419F000B6890 /* MasterViewController.h */,
+				D49745E41A1B419F000B6890 /* MasterViewController.m */,
+				D49745E61A1B419F000B6890 /* DetailViewController.h */,
+				D49745E71A1B419F000B6890 /* DetailViewController.m */,
+				D49746051A1B4531000B6890 /* ProjectProfileViewController.h */,
+				D49746061A1B4531000B6890 /* ProjectProfileViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		D4505E951A23107900A0C902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D49745E91A1B419F000B6890 /* Main.storyboard */,
+				D49745EE1A1B419F000B6890 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D4505E961A23109300A0C902 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D49745E01A1B419F000B6890 /* AppDelegate.h */,
+				D49745E11A1B419F000B6890 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D4505E971A2310AE00A0C902 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D497460B1A1C5FD4000B6890 /* UIPlaceHolderTextView.h */,
+				D497460C1A1C5FD4000B6890 /* UIPlaceHolderTextView.m */,
+				D4EB3DCE1A26B561004834A8 /* FileIOHelper.h */,
+				D4EB3DCF1A26B561004834A8 /* FileIOHelper.m */,
+				D4EB3DD21A26B57F004834A8 /* JSONHelper.h */,
+				D4EB3DD31A26B57F004834A8 /* JSONHelper.m */,
+				D4EB3E0D1A2D2695004834A8 /* Base64Helper.h */,
+				D4EB3E0E1A2D2695004834A8 /* Base64Helper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		D4505E981A2310D200A0C902 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D41D81641A1ED6D9007F366F /* libsqlite3.0.dylib */,
+				D41D81651A1ED6D9007F366F /* libsqlite3.dylib */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		D49745D01A1B419F000B6890 = {
+			isa = PBXGroup;
+			children = (
+				D49745DB1A1B419F000B6890 /* UserStoriesXP */,
+				D49745F81A1B419F000B6890 /* UserStoriesXPTests */,
+				D49745DA1A1B419F000B6890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49745DA1A1B419F000B6890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49745D91A1B419F000B6890 /* UserStoriesXP.app */,
+				D49745F51A1B419F000B6890 /* UserStoriesXPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49745DB1A1B419F000B6890 /* UserStoriesXP */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB3E111A2D310C004834A8 /* Flurry-iOS-5.4.0 */,
+				D4505E981A2310D200A0C902 /* Framework */,
+				D4505E971A2310AE00A0C902 /* Helper */,
+				D4505E961A23109300A0C902 /* AppDelegate */,
+				D4505E951A23107900A0C902 /* View */,
+				D4505E941A23106100A0C902 /* ViewController */,
+				D4505E931A23103600A0C902 /* Factory */,
+				D4505E921A23102B00A0C902 /* Res */,
+				D41D813A1A1EC9BF007F366F /* Model */,
+				D49745EC1A1B419F000B6890 /* Images.xcassets */,
+				D49745DC1A1B419F000B6890 /* Supporting Files */,
+			);
+			path = UserStoriesXP;
+			sourceTree = "<group>";
+		};
+		D49745DC1A1B419F000B6890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D49745DD1A1B419F000B6890 /* Info.plist */,
+				D49745DE1A1B419F000B6890 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D49745F81A1B419F000B6890 /* UserStoriesXPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D49745FB1A1B419F000B6890 /* UserStoriesXPTests.m */,
+				D49745F91A1B419F000B6890 /* Supporting Files */,
+			);
+			path = UserStoriesXPTests;
+			sourceTree = "<group>";
+		};
+		D49745F91A1B419F000B6890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D49745FA1A1B419F000B6890 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4EB3E111A2D310C004834A8 /* Flurry-iOS-5.4.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB3E121A2D310C004834A8 /* Flurry */,
+				D4EB3E9E1A2D310C004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf */,
+				D4EB3E9F1A2D310C004834A8 /* FlurryAds */,
+				D4EB3EA31A2D310C004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf */,
+				D4EB3EA41A2D310C004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf */,
+				D4EB3EA51A2D310C004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf */,
+				D4EB3EA61A2D310C004834A8 /* Licenses */,
+			);
+			path = "Flurry-iOS-5.4.0";
+			sourceTree = "<group>";
+		};
+		D4EB3E121A2D310C004834A8 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB3E131A2D310C004834A8 /* Flurry.h */,
+				D4EB3E141A2D310C004834A8 /* libFlurry_5.4.0.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		D4EB3E9F1A2D310C004834A8 /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB3EA01A2D310C004834A8 /* FlurryAdDelegate.h */,
+				D4EB3EA11A2D310C004834A8 /* FlurryAds.h */,
+				D4EB3EA21A2D310C004834A8 /* libFlurryAds_5.4.0.a */,
+			);
+			path = FlurryAds;
+			sourceTree = "<group>";
+		};
+		D4EB3EA61A2D310C004834A8 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB3EA71A2D310C004834A8 /* Avro-LICENSE.txt */,
+				D4EB3EA81A2D310C004834A8 /* Flurry Analytics Terms of Service.pdf */,
+				D4EB3EA91A2D310C004834A8 /* Flurry for Advertisers TOS.pdf */,
+				D4EB3EAA1A2D310C004834A8 /* Flurry for Publishers TOS.pdf */,
+				D4EB3EAB1A2D310C004834A8 /* Flurry RTB Marketplace TOS.pdf */,
+				D4EB3EAC1A2D310C004834A8 /* Flurry-LICENSE.txt */,
+				D4EB3EAD1A2D310C004834A8 /* Hogan.js-LICENSE.txt */,
+				D4EB3EAE1A2D310C004834A8 /* Jansson-LICENSE.txt */,
+				D4EB3EAF1A2D310C004834A8 /* PLCrashReporter-LICENSE.rtf */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49745D81A1B419F000B6890 /* UserStoriesXP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49745FF1A1B419F000B6890 /* Build configuration list for PBXNativeTarget "UserStoriesXP" */;
+			buildPhases = (
+				D49745D51A1B419F000B6890 /* Sources */,
+				D49745D61A1B419F000B6890 /* Frameworks */,
+				D49745D71A1B419F000B6890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UserStoriesXP;
+			productName = UserStoriesXP;
+			productReference = D49745D91A1B419F000B6890 /* UserStoriesXP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D49745F41A1B419F000B6890 /* UserStoriesXPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49746021A1B419F000B6890 /* Build configuration list for PBXNativeTarget "UserStoriesXPTests" */;
+			buildPhases = (
+				D49745F11A1B419F000B6890 /* Sources */,
+				D49745F21A1B419F000B6890 /* Frameworks */,
+				D49745F31A1B419F000B6890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49745F71A1B419F000B6890 /* PBXTargetDependency */,
+			);
+			name = UserStoriesXPTests;
+			productName = UserStoriesXPTests;
+			productReference = D49745F51A1B419F000B6890 /* UserStoriesXPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D49745D11A1B419F000B6890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DESHMUKH;
+				TargetAttributes = {
+					D49745D81A1B419F000B6890 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D49745F41A1B419F000B6890 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D49745D81A1B419F000B6890;
+					};
+				};
+			};
+			buildConfigurationList = D49745D41A1B419F000B6890 /* Build configuration list for PBXProject "UserStoriesXP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D49745D01A1B419F000B6890;
+			productRefGroup = D49745DA1A1B419F000B6890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49745D81A1B419F000B6890 /* UserStoriesXP */,
+				D49745F41A1B419F000B6890 /* UserStoriesXPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49745D71A1B419F000B6890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49745EB1A1B419F000B6890 /* Main.storyboard in Resources */,
+				D4AE45161A1F20650059AAF3 /* background.pdf in Resources */,
+				D49745F01A1B419F000B6890 /* LaunchScreen.xib in Resources */,
+				D4EB3FD01A2D310D004834A8 /* Flurry for Publishers TOS.pdf in Resources */,
+				D4AE451A1A1F225C0059AAF3 /* Background.png in Resources */,
+				D4EB3FCC1A2D310D004834A8 /* Flurry Analytics Terms of Service.pdf in Resources */,
+				D41D816B1A1ED724007F366F /* UserStories.sqlite3 in Resources */,
+				D4EB3FC01A2D310D004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf in Resources */,
+				D4EB3FCA1A2D310D004834A8 /* Avro-LICENSE.txt in Resources */,
+				D4EB3FD81A2D310D004834A8 /* Jansson-LICENSE.txt in Resources */,
+				D4EB3FD61A2D310D004834A8 /* Hogan.js-LICENSE.txt in Resources */,
+				D49745ED1A1B419F000B6890 /* Images.xcassets in Resources */,
+				D4EB3FC61A2D310D004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf in Resources */,
+				D4EB3FCE1A2D310D004834A8 /* Flurry for Advertisers TOS.pdf in Resources */,
+				D4EB3FD41A2D310D004834A8 /* Flurry-LICENSE.txt in Resources */,
+				D4EB3FC41A2D310D004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf in Resources */,
+				D4EB3FE31A2EBF55004834A8 /* icon.png in Resources */,
+				D4EB3FD21A2D310D004834A8 /* Flurry RTB Marketplace TOS.pdf in Resources */,
+				D4EB3FC81A2D310D004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf in Resources */,
+				D4EB3FDA1A2D310D004834A8 /* PLCrashReporter-LICENSE.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49745F31A1B419F000B6890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4EB3FD51A2D310D004834A8 /* Flurry-LICENSE.txt in Resources */,
+				D4EB3FDB1A2D310D004834A8 /* PLCrashReporter-LICENSE.rtf in Resources */,
+				D4EB3FD31A2D310D004834A8 /* Flurry RTB Marketplace TOS.pdf in Resources */,
+				D41D816C1A1ED724007F366F /* UserStories.sqlite3 in Resources */,
+				D4EB3FC11A2D310D004834A8 /* Flurry iOS-4.x-Upgrade-README .pdf in Resources */,
+				D4EB3FC51A2D310D004834A8 /* FlurryiOSAdvertisingREADMEv5.4.0.pdf in Resources */,
+				D4EB3FC91A2D310D004834A8 /* FlurryiOSReleaseNotesv5.4.0.pdf in Resources */,
+				D4EB3FC71A2D310D004834A8 /* FlurryiOSAnalyticsREADMEv5.4.0.pdf in Resources */,
+				D4EB3FD91A2D310D004834A8 /* Jansson-LICENSE.txt in Resources */,
+				D4EB3FCB1A2D310D004834A8 /* Avro-LICENSE.txt in Resources */,
+				D4EB3FCF1A2D310D004834A8 /* Flurry for Advertisers TOS.pdf in Resources */,
+				D4EB3FE41A2EBF55004834A8 /* icon.png in Resources */,
+				D4EB3FD11A2D310D004834A8 /* Flurry for Publishers TOS.pdf in Resources */,
+				D4EB3FD71A2D310D004834A8 /* Hogan.js-LICENSE.txt in Resources */,
+				D4EB3FCD1A2D310D004834A8 /* Flurry Analytics Terms of Service.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49745D51A1B419F000B6890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49745E21A1B419F000B6890 /* AppDelegate.m in Sources */,
+				D4EB3DD41A26B57F004834A8 /* JSONHelper.m in Sources */,
+				D49745E51A1B419F000B6890 /* MasterViewController.m in Sources */,
+				D4EB3E0F1A2D2695004834A8 /* Base64Helper.m in Sources */,
+				D4EB3DD01A26B561004834A8 /* FileIOHelper.m in Sources */,
+				D41D81451A1ECB95007F366F /* DBSingletonFactory.m in Sources */,
+				D49745DF1A1B419F000B6890 /* main.m in Sources */,
+				D497460D1A1C5FD4000B6890 /* UIPlaceHolderTextView.m in Sources */,
+				D497460A1A1C0BD8000B6890 /* UserStoriesViewController.m in Sources */,
+				D49746071A1B4531000B6890 /* ProjectProfileViewController.m in Sources */,
+				D41D813D1A1EC9EC007F366F /* UserStoriesModel.m in Sources */,
+				D41D81411A1ECA05007F366F /* ProjectProfileModel.m in Sources */,
+				D49745E81A1B419F000B6890 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49745F11A1B419F000B6890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41D81461A1ECB95007F366F /* DBSingletonFactory.m in Sources */,
+				D4EB3DD51A26B57F004834A8 /* JSONHelper.m in Sources */,
+				D41D813E1A1EC9EC007F366F /* UserStoriesModel.m in Sources */,
+				D41D81421A1ECA05007F366F /* ProjectProfileModel.m in Sources */,
+				D4EB3DD11A26B561004834A8 /* FileIOHelper.m in Sources */,
+				D49745FC1A1B419F000B6890 /* UserStoriesXPTests.m in Sources */,
+				D4EB3E101A2D2695004834A8 /* Base64Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D49745F71A1B419F000B6890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49745D81A1B419F000B6890 /* UserStoriesXP */;
+			targetProxy = D49745F61A1B419F000B6890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D49745E91A1B419F000B6890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49745EA1A1B419F000B6890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D49745EE1A1B419F000B6890 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49745EF1A1B419F000B6890 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49745FD1A1B419F000B6890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D49745FE1A1B419F000B6890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49746001A1B419F000B6890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UserStoriesXP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/Flurry",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D49746011A1B419F000B6890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UserStoriesXP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/Flurry",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D49746031A1B419F000B6890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UserStoriesXPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/Flurry",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserStoriesXP.app/UserStoriesXP";
+			};
+			name = Debug;
+		};
+		D49746041A1B419F000B6890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UserStoriesXPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/Flurry",
+					"$(PROJECT_DIR)/UserStoriesXP/Flurry-iOS-5.4.0/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UserStoriesXP.app/UserStoriesXP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49745D41A1B419F000B6890 /* Build configuration list for PBXProject "UserStoriesXP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49745FD1A1B419F000B6890 /* Debug */,
+				D49745FE1A1B419F000B6890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49745FF1A1B419F000B6890 /* Build configuration list for PBXNativeTarget "UserStoriesXP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49746001A1B419F000B6890 /* Debug */,
+				D49746011A1B419F000B6890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49746021A1B419F000B6890 /* Build configuration list for PBXNativeTarget "UserStoriesXPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49746031A1B419F000B6890 /* Debug */,
+				D49746041A1B419F000B6890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D49745D11A1B419F000B6890 /* Project object */;
+}
